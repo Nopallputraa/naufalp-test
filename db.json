@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "users",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "username": "naufal",
+      "password": "123456"
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket 10GB",
+      "price": 30000,
+      "image": "https://www.shutterstock.com/image-illustration/10-gb-3d-word-on-260nw-1389824156.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Paket 20GB",
+      "price": 50000,
+      "image": "https://www.shutterstock.com/image-illustration/20-gb-3d-word-on-260nw-1389994493.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Paket 30GB",
+      "price": 70000,
+      "image": "https://www.shutterstock.com/image-illustration/30-gb-3d-word-on-260nw-1389994499.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Paket 40GB",
+      "price": 90000,
+      "image": "https://www.shutterstock.com/image-illustration/40-gb-3d-word-on-260nw-1389994502.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Paket 50GB",
+      "price": 100000,
+      "image": "https://www.shutterstock.com/image-illustration/50-gb-3d-word-on-260nw-1389994505.jpg"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "7d74",
+      "userId": "1",
+      "packageId": "2",
+      "date": "2025-05-03T03:32:18.604Z",
+      "paymentMethod": "GOPAY"
+    },
+    {
+      "id": "22b6",
+      "userId": "2",
+      "packageId": "4",
+      "date": "2025-05-03T03:42:37.212Z",
+      "paymentMethod": "OVO"
+    },
+    {
+      "id": "4137",
+      "userId": "2",
+      "packageId": "5",
+      "date": "2025-05-03T03:45:24.502Z",
+      "paymentMethod": "DANA"
+    },
+    {
+      "id": "3088",
+      "userId": "2",
+      "packageId": "3",
+      "date": "2025-05-03T04:07:27.141Z",
+      "paymentMethod": "GOPAY"
+    },
+    {
+      "id": "e0f7",
+      "userId": "1",
+      "packageId": "2",
+      "date": "2025-05-03T04:07:42.015Z",
+      "paymentMethod": "OVO"
+    }
+  ]
+}

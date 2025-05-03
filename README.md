@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Pembuatan Website E-Commerce Pembelian Paket Data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deskripsi Proyek
+Website yang saya buat adalah simulasi user dalam membeli paket data internet yang sederhana menggunakan ReactJS yang terhubung ke api `json-server`. Desain UI dibuat menggunakan **Figma** dan **Ant Design**.
 
-## Available Scripts
+## Waktu Pengerjaan
+**Tanggal Mulai:** 30 April 2025, 18:00 WIB
+**Tanggal Selesai:** 3 Mei 2025, 09:00 WIB
 
-In the project directory, you can run:
+## Deploy Aplikasi
+1. Run json-server dan npmstart
+![Tampilan Run json-server](./img/run%20json-server.png)
+![Tampilan Run npm](./img/run%20npm%20start.png)
 
-### `npm start`
+2. Jalankan localhost:3000 dan muncul pada login page
+![Tampilan Login Page](./img/login.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Mengecek endpoint yang disediakan json-server
+![Tampilan](img/mengecek-endpoint.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Login pada user yang tersedia
+Disini nantinya akan login pada user yang tersedia. Ada 2 user yang akan digunakan.
+User 1: 
+Username: users 
+Password: 123456
 
-### `npm test`
+User 2: 
+Username: naufal 
+Password: 123456
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Tampilan Setelah Login](./img/dashboard.png)
 
-### `npm run build`
+5. Masuk pada menu riwayat
+Menu riwayat berfungsi untuk melihat riwayat transaksi yang sudah dibeli.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Tampilan Riwayat](img/riwayat-transaksi.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Melakukan pembelian paket data dan mengecek riwayat user1
+Disini pada akun users akan membeli paket data dan muncul pop-up konfirmasi pembelian.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Tampilan Konfirmasi](img/konfirmasi-pembelian.png)
 
-### `npm run eject`
+Disini juga muncul metode pembayaran apa saja yang bisa digunakan.
+![Tampilan Metode](img/metode-pembayaran.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Setelah pembelian sukses, riwayat transaksi akan muncul pada menu riwayat.
+![Tampilan Pembelian](img/riwayat-transaksi-1.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. Setelah itu melakukan pindah user yang lain
+Disini saya pindah dari user1 ke user 2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Tampilan Login User 2](img/dashboard-2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Mengecek riwayat transaksi
+![Tampilan Riwayat](img/riwayat-transaksi-2.png)
 
-## Learn More
+8. Melakukan pembelian paket data dan mengecek riwayat pada user2
+Disini pada akun user2 akan melakukan pembelian paket yang berbeda dan muncul pop-up konfirmasi pembelian.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Tampilan Konfirmasi](img/konfirmasi-pembelian-1.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Setelah pembelian sukses, riwayat transaksi akan muncul pada menu riwayat pada user2
+![Tampilan Riwayat](img/riwayat-transaksi-3.png)
 
-### Code Splitting
+Mencoba membeli paket data lagi, dan melihat riwayat
+![Tampilan Riwayat](img/riwayat-transaksi-4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9. Klik Logout dan kembali ke login page.

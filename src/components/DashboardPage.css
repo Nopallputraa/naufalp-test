@@ -1,0 +1,49 @@
+.dashboard {
+    background-color: #cce6f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-header {
+    background-color: #0077cc;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dashboard-content {
+    padding: 2rem;
+  }
+  
+  .package-card {
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .image-placeholder {
+    height: 120px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .card-text p {
+    margin: 0.5rem 0;
+  }
+  
+  .package-title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .package-price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
