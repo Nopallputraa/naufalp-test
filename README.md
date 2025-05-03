@@ -9,6 +9,7 @@ Website yang saya buat adalah simulasi user dalam membeli paket data internet ya
 
 ## Deploy Aplikasi
 1. Run json-server dan npmstart
+
 ![Tampilan Run json-server](./img/run%20json-server.png)
 ![Tampilan Run npm](./img/run%20npm%20start.png)
 
