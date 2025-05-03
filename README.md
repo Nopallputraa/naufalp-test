@@ -3,6 +3,9 @@
 ## Deskripsi Proyek
 Website yang saya buat adalah simulasi user dalam membeli paket data internet yang sederhana menggunakan ReactJS yang terhubung ke api `json-server`. Desain UI dibuat menggunakan **Figma** dan **Ant Design**.
 
+## Link Figma
+https://www.figma.com/design/9ifgMHca8JcNt5BXX4nvwV/Mockup-Website-Internet?node-id=0-1&t=Bl7pSLiGpXksJzM4-1
+
 ## Waktu Pengerjaan
 **Tanggal Mulai:** 30 April 2025, 18:00 WIB
 **Tanggal Selesai:** 3 Mei 2025, 09:00 WIB
@@ -22,11 +25,11 @@ Website yang saya buat adalah simulasi user dalam membeli paket data internet ya
 4. Login pada user yang tersedia
 Disini nantinya akan login pada user yang tersedia. Ada 2 user yang akan digunakan.
 
-User 1: 
+User 1;
 Username: users 
 Password: 123456
 
-User 2: 
+User 2;
 Username: naufal 
 Password: 123456
 
