@@ -10,6 +10,13 @@ https://www.figma.com/design/9ifgMHca8JcNt5BXX4nvwV/Mockup-Website-Internet?node
 **Tanggal Mulai:** 30 April 2025, 18:00 WIB
 **Tanggal Selesai:** 3 Mei 2025, 09:00 WIB
 
+## Tools yang Dipakai
+- React 18
+- Ant Design
+- React Router DOM
+- Axios
+- json-server
+
 ## Deploy Aplikasi
 1. Run json-server dan npmstart
 
@@ -25,11 +32,11 @@ https://www.figma.com/design/9ifgMHca8JcNt5BXX4nvwV/Mockup-Website-Internet?node
 4. Login pada user yang tersedia
 Disini nantinya akan login pada user yang tersedia. Ada 2 user yang akan digunakan.
 
-User 1;
+User 1:
 Username: users 
 Password: 123456
 
-User 2;
+User 2:
 Username: naufal 
 Password: 123456
 
